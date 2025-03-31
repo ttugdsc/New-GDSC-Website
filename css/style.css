@@ -121,6 +121,17 @@ img {
   color: var(--color-white);
 }
 
+.hyperlinks{
+  background: transparent;
+  color: var(--color-white);
+  transition: var(--transition);
+}
+
+.hyperlinks:hover{
+  background: var(--color-white);
+  color: var(--color-black);
+}
+
 /* =================== NAVBAR ===================== */
 nav {
   background: transparent;
@@ -287,6 +298,19 @@ header {
   margin: 1.2rem 0 2rem;
   font-size: 0.9rem;
 }
+
+/* =================== Calendar /* =================== */
+.calendar-container {
+  max-width: 1200px;
+  margin: 50px auto;
+  background-color: rgba(255, 255, 255, 0.1); /* Transparent effect */
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+.calendar-container iframe {
+  background-color: transparent; /* Does not affect Google Calendar, it's for iframe styling */
+} 
 
 /* =================== FAQs ===================== */
 .faqs {
